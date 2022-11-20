@@ -1,0 +1,19 @@
+<web-app>
+    <servlet>
+        <servlet-name>first</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>first</servlet-name>
+        <url-pattern>/exampleServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Index.jps</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Index.jps</servlet-name>
+        <url-pattern>/jsp</url-pattern>
+    </servlet-mapping>
+</web-app>
